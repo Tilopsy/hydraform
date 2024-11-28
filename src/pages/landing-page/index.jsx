@@ -70,45 +70,196 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
-            <img src="src/assets/images/workers1.jpeg" alt="Workers" className="" />
+            <img src="src/assets/images/who-we.jpg" alt="Workers" className="max-w-full h-auto" />
           </div>
         </div>
       </section>
 
-      <section id="services" className="py-20 bg-gray-100">
+      {/* Services Section */}
+      <section id="services" className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-          <p className="text-center">Services section content goes here.</p>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/l-news-1.jpg" alt="Service 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 1</h3>
+                <p className="text-gray-700 mt-2">Description of service 1.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/l-news-2.jpg" alt="Service 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 2</h3>
+                <p className="text-gray-700 mt-2">Description of service 2.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/l-news-3.jpg" alt="Service 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 3</h3>
+                <p className="text-gray-700 mt-2">Description of service 3.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="about" className="py-20">
+      {/* About Us Section */}
+      <section id="about" className="py-10">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
-          <p className="text-center">About Us section content goes here.</p>
+          <div className="flex flex-wrap items-center">
+            <div className="w-full md:w-1/2 mb-8 md:mb-0">
+              <img src="src/assets/images/construction1.webp" alt="About Us" className="max-w-full h-auto rounded-lg shadow-lg" />
+            </div>
+            <div className="w-full md:w-1/2">
+              <p className="text-gray-700 font-semibold ml-4">
+                We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have. We believe in building strong relationships with our clients and providing top-notch customer service. <br />
+                We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have. We believe in building strong relationships with our clients and providing top-notch customer service.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="blog" className="py-20 bg-gray-100">
+      {/* Blog Section */}
+      <section id="blog" className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Blog</h2>
-          <p className="text-center">Blog section content goes here.</p>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/brickwall1.jpg" alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 1</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 1.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/construction2.jpg" alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 2</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 2.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src="src/assets/images/brickwall2.jpg" alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 3</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 3.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="contact" className="py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
-          <p className="text-center">Contact Us section content goes here.</p>
-        </div>
-      </section>
-
-      <section id="testimonials" className="py-20 bg-gray-100">
+      {/* Testimonials Section */}
+      <section id="testimonials" className="py-10">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Testimonials</h2>
-          <p className="text-center">Testimonials section content goes here.</p>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <p className="text-gray-700">"We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have."</p>
+                <p className="text-red-700 mt-4">- Will Smith</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <p className="text-gray-700">"We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have."</p>
+                <p className="text-red-700 mt-4">- Michael Ham</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+
+      {/* Contact Us Section */}
+      <section id="contact" className="py-10 bg-gray-100">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <form>
+                  <div className="mb-4">
+                    <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Message</label>
+                    <textarea
+                      id="message"
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2"
+                      rows="4"
+                      placeholder="Enter your message"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="bg-red-700 text-white rounded-lg px-4 py-2 hover:bg-yellow-600"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 px-4">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <h3 className="text-xl font-semibold text-red-700 mb-4">Contact Information</h3>
+                <p className="text-gray-700">Feel free to get in touch with us through any of the methods below:</p>
+                <div className="mt-4">
+                  <p className="flex items-center space-x-2">
+                    <FaPhoneAlt />
+                    <span>(233) - 545061734</span>
+                  </p>
+                  <p className="flex items-center space-x-2 mt-2">
+                    <FaMapMarkerAlt />
+                    <span>1234 West Africa, Ghana</span>
+                  </p>
+                  <p className="flex items-center space-x-2 mt-2">
+                    <FaClock />
+                    <span>Open 24/7</span>
+                  </p>
+                </div>
+                <div className="mt-4 flex space-x-4">
+                  <FaFacebookF className="text-xl" />
+                  <FaTwitter className="text-xl" />
+                  <FaGoogle className="text-xl" />
+                  <FaPinterestP className="text-xl" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="bg-gray-900 text-white py-6">
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <div className="text-sm">
+            &copy; {new Date().getFullYear()} Vincecole Ventures. All rights reserved.
+          </div>
+          <div className="flex space-x-4">
+            <a href="#" className="text-white hover:text-yellow-600">Privacy Policy</a>
+            <a href="#" className="text-white hover:text-yellow-600">Terms of Service</a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
