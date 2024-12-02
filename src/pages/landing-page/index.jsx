@@ -27,7 +27,7 @@ const LandingPage = () => {
             </div>
             <div className="flex items-center space-x-1">
               <FaMapMarkerAlt />
-              <span>1234 West Africa, Ghana</span>
+              <span>1234 Ghana, West Africa</span>
             </div>
             <div className="flex items-center space-x-1">
               <FaClock />
@@ -219,7 +219,7 @@ const LandingPage = () => {
                   </p>
                   <p className="flex items-center space-x-2 mt-2">
                     <FaMapMarkerAlt />
-                    <span>1234 West Africa, Ghana</span>
+                    <span>1234 Ghana, West Africa</span>
                   </p>
                   <p className="flex items-center space-x-2 mt-2">
                     <FaClock />
