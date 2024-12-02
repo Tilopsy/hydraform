@@ -3,6 +3,7 @@ import {
   FaPhoneAlt, FaMapMarkerAlt, FaClock, FaFacebookF,
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
+import logo from '../../assets/images/logo-orig.png'
 
 const LandingPage = () => {
   return (
@@ -37,7 +38,7 @@ const LandingPage = () => {
           <div className="bg-white w-full opacity-90">
             <div className="container mx-auto flex justify-between items-center py-4 px-4">
               <div className="flex items-center space-x-2">
-                <img src="src/assets/images/logo-orig..png" alt="Logo" className="h-20" />
+                <img src={logo} alt="Logo" className="h-20" />
               </div>
               <nav className="ml-auto space-x-6">
                 <a href="#home" className="text-red-700 font-semibold hover:text-yellow-600">HOME</a>
