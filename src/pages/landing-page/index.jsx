@@ -4,7 +4,15 @@ import {
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
 import logo from '../../assets/images/logo-orig.png';
-import backgroundimage from '../../assets/images/background3.jpg'
+import backgroundImage from '../../assets/images/background3.jpg';
+import workersImage from '../../assets/images/who-we.jpg';
+import serviceImage1 from '../../assets/images/l-news-1.jpg';
+import serviceImage2 from '../../assets/images/l-news-2.jpg';
+import serviceImage3 from '../../assets/images/l-news-3.jpg';
+import aboutUsImage from '../../assets/images/construction1.webp';
+import blogImage1 from '../../assets/images/brickwall1.jpg';
+import blogImage2 from '../../assets/images/construction2.jpg';
+import blogImage3 from '../../assets/images/brickwall2.jpg';
 
 const LandingPage = () => {
   return (
@@ -35,7 +43,7 @@ const LandingPage = () => {
         </div>
 
         {/* Main navbar */}
-        <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage:`url(${backgroundimage})` }}>
+        <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage: `url(${backgroundImage})` }}>
           <div className="bg-white w-full opacity-90">
             <div className="container mx-auto flex justify-between items-center py-4 px-4">
               <div className="flex items-center space-x-2">
@@ -72,7 +80,7 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
-            <img src="src/assets/images/who-we.jpg" alt="Workers" className="max-w-full h-auto" />
+            <img src={workersImage} alt="Workers" className="max-w-full h-auto" />
           </div>
         </div>
       </section>
@@ -84,21 +92,21 @@ const LandingPage = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/l-news-1.jpg" alt="Service 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={serviceImage1} alt="Service 1" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Service 1</h3>
                 <p className="text-gray-700 mt-2">Description of service 1.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/l-news-2.jpg" alt="Service 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={serviceImage2} alt="Service 2" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Service 2</h3>
                 <p className="text-gray-700 mt-2">Description of service 2.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/l-news-3.jpg" alt="Service 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={serviceImage3} alt="Service 3" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Service 3</h3>
                 <p className="text-gray-700 mt-2">Description of service 3.</p>
               </div>
@@ -113,7 +121,7 @@ const LandingPage = () => {
           <h2 className="text-3xl font-bold text-center mb-8">About Us</h2>
           <div className="flex flex-wrap items-center">
             <div className="w-full md:w-1/2 mb-8 md:mb-0">
-              <img src="src/assets/images/construction1.webp" alt="About Us" className="max-w-full h-auto rounded-lg shadow-lg" />
+              <img src={aboutUsImage} alt="About Us" className="max-w-full h-auto rounded-lg shadow-lg" />
             </div>
             <div className="w-full md:w-1/2">
               <p className="text-gray-700 font-semibold ml-4">
@@ -132,21 +140,21 @@ const LandingPage = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/brickwall1.jpg" alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage1} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 1</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 1.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/construction2.jpg" alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 2</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 2.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src="src/assets/images/brickwall2.jpg" alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 3</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 3.</p>
               </div>
@@ -155,26 +163,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section id="testimonials" className="py-10">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Testimonials</h2>
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg p-6">
-                <p className="text-gray-700">"We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have."</p>
-                <p className="text-red-700 mt-4">- Will Smith</p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/2 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg p-6">
-                <p className="text-gray-700">"We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have."</p>
-                <p className="text-red-700 mt-4">- Michael Ham</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Contact Us Section */}
       <section id="contact" className="py-10 bg-gray-100">
