@@ -3,7 +3,8 @@ import {
   FaPhoneAlt, FaMapMarkerAlt, FaClock, FaFacebookF,
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
-import logo from '../../assets/images/logo-orig.png'
+import logo from '../../assets/images/logo-orig.png';
+import backgroundimage from '../../assets/images/background3.jpg'
 
 const LandingPage = () => {
   return (
@@ -34,7 +35,7 @@ const LandingPage = () => {
         </div>
 
         {/* Main navbar */}
-        <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage: "url('src/assets/images/background3.jpg')" }}>
+        <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage:`url(${backgroundimage})` }}>
           <div className="bg-white w-full opacity-90">
             <div className="container mx-auto flex justify-between items-center py-4 px-4">
               <div className="flex items-center space-x-2">
