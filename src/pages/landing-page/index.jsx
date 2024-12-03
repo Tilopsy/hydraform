@@ -13,6 +13,9 @@ import aboutUsImage from '../../assets/images/construction1.webp';
 import blogImage1 from '../../assets/images/brickwall1.jpg';
 import blogImage2 from '../../assets/images/construction2.jpg';
 import blogImage3 from '../../assets/images/brickwall2.jpg';
+import blogImage4 from '../../assets/images/entrepreneur1.jpeg';
+import blogImage5 from '../../assets/images/brickhouse.jpeg';
+import blogImage6 from '../../assets/images/entrepreneurswithblocks.jpeg';
 
 const LandingPage = () => {
   return (
@@ -157,6 +160,27 @@ const LandingPage = () => {
                 <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 3</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 3.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 4</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 4.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 5</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 5.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 6</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 6.</p>
               </div>
             </div>
           </div>
