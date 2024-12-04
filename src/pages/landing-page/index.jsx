@@ -3,9 +3,9 @@ import {
   FaPhoneAlt, FaMapMarkerAlt, FaClock, FaFacebookF,
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
-import logo from '../../assets/images/logo-orig.png';
+import logo from '../../assets/images/hydraform.png';
 import backgroundImage from '../../assets/images/background3.jpg';
-import workersImage from '../../assets/images/who-we.jpg';
+import recycleImage from '../../assets/images/recycleimage.webp';
 import serviceImage1 from '../../assets/images/l-news-1.jpg';
 import serviceImage2 from '../../assets/images/l-news-2.jpg';
 import serviceImage3 from '../../assets/images/l-news-3.jpg';
@@ -16,6 +16,7 @@ import blogImage3 from '../../assets/images/brickwall2.jpg';
 import blogImage4 from '../../assets/images/entrepreneur1.jpeg';
 import blogImage5 from '../../assets/images/brickhouse.jpeg';
 import blogImage6 from '../../assets/images/entrepreneurswithblocks.jpeg';
+import { FaWhatsapp } from 'react-icons/fa6';
 
 const LandingPage = () => {
   return (
@@ -76,14 +77,14 @@ const LandingPage = () => {
           <div className="w-full md:w-1/2 mb-8 md:mb-0">
             <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
             <p className="text-gray-700 font-semibold">
-              We are Vincecole Ventures, specialized in Hydrafoam Block Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
+              We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
               Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
               Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
               Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
-            <img src={workersImage} alt="Workers" className="max-w-full h-auto" />
+            <img src={recycleImage} alt="Recycle symbol" className="max-w-full h-auto" />
           </div>
         </div>
       </section>
@@ -255,6 +256,7 @@ const LandingPage = () => {
                   <FaTwitter className="text-xl" />
                   <FaGoogle className="text-xl" />
                   <FaPinterestP className="text-xl" />
+                  <FaWhatsapp className="text-xl" />
                 </div>
               </div>
             </div>
@@ -263,7 +265,7 @@ const LandingPage = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-gray-900 text-white py-6">
+      {/* <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="text-sm">
             &copy; {new Date().getFullYear()} Vincecole Ventures. All rights reserved.
@@ -273,7 +275,7 @@ const LandingPage = () => {
             <a href="#" className="text-white hover:text-yellow-600">Terms of Service</a>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };
