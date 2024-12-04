@@ -4,7 +4,7 @@ import {
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
 import logo from '../../assets/images/hydraform.png';
-import backgroundImage from '../../assets/images/background3.jpg';
+import backgroundImage from '../../assets/images/hero-bg.jpg';
 import recycleImage from '../../assets/images/recycleimage.webp';
 import serviceImage1 from '../../assets/images/l-news-1.jpg';
 import serviceImage2 from '../../assets/images/l-news-2.jpg';
@@ -84,7 +84,7 @@ const LandingPage = () => {
             </p>
           </div>
           <div className="w-full md:w-1/2 flex justify-center">
-            <img src={recycleImage} alt="Recycle symbol" className="max-w-full h-auto" />
+            <img src={recycleImage} alt="Recycle symbol" className="" />
           </div>
         </div>
       </section>
