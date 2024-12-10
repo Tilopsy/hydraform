@@ -45,6 +45,25 @@ const LandingPage = () => {
 
       {/* Who We Are Section/Video */}
       <section id="home" className="py-20">
+  <div className="container mx-auto px-4 flex flex-wrap items-center">
+    <div className="w-full md:w-1/2 mb-8 md:mb-0">
+      <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
+      <p className="text-gray-700 font-semibold">
+        We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
+        Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
+        Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
+        Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
+      </p>
+    </div>
+    <div className="w-full md:w-1/2 flex justify-center md:pl-36">
+      <video controls className="w-full h-auto max-w-full">
+        <source src={videoFile} type="video/mp4" />
+      </video>
+    </div>
+  </div>
+</section>
+
+      {/* <section id="home" className="py-20">
     <div className="container mx-auto px-4 flex flex-wrap items-center">
       <div className="w-full md:w-1/2 mb-8 md:mb-0">
         <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
@@ -61,7 +80,7 @@ const LandingPage = () => {
         </video>
       </div>
     </div>
-  </section>
+  </section> */}
 
       {/* Services Section */}
       <section id="services" className="py-10 bg-gray-100">
