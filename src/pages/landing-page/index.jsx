@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa';
 import logo from '../../assets/images/hydraform.png';
 import backgroundImage from '../../assets/images/hero-bg.jpg';
-import recycleImage from '../../assets/images/recycleimage.webp';
+import videoFile from '../../assets/videos/video-process.mp4';
 import serviceImage1 from '../../assets/images/l-news-1.jpg';
 import serviceImage2 from '../../assets/images/l-news-2.jpg';
 import serviceImage3 from '../../assets/images/l-news-3.jpg';
@@ -38,33 +38,30 @@ const LandingPage = () => {
                 <a href="#contact" className="text-sky-950 font-semibold hover:text-red-700">CONTACT</a>
                 <a href="#testimonials" className="text-sky-950 font-semibold hover:text-red-700">TESTIMONIALS</a>
               </nav>
-              <div className="relative ml-4">
-                <button className="text-sky-950 relative">
-                  <FaShoppingCart className="text-xl" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
       </header>
 
-      {/* Welcome Section */}
+      {/* Who We Are Section/Video */}
       <section id="home" className="py-20">
-        <div className="container mx-auto px-4 flex flex-wrap items-center">
-          <div className="w-full md:w-1/2 mb-8 md:mb-0">
-            <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
-            <p className="text-gray-700 font-semibold">
-              We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
-              Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
-              Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
-              Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
-            </p>
-          </div>
-          <div className="w-full md:w-1/2 flex justify-center">
-            <img src={recycleImage} alt="Recycle symbol" className="" />
-          </div>
-        </div>
-      </section>
+    <div className="container mx-auto px-4 flex flex-wrap items-center">
+      <div className="w-full md:w-1/2 mb-8 md:mb-0">
+        <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
+        <p className="text-gray-700 font-semibold">
+          We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
+          Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
+          Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
+          Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
+        </p>
+      </div>
+      <div className=" md:w-1/2 flex justify-center pl-36">
+        <video controls className="h-auto">
+          <source src={videoFile} type="video/mp4" />
+        </video>
+      </div>
+    </div>
+  </section>
 
       {/* Services Section */}
       <section id="services" className="py-10 bg-gray-100">
@@ -238,7 +235,7 @@ const LandingPage = () => {
                 <div className="mt-4">
                   <p className="flex items-center space-x-2">
                     <FaPhoneAlt />
-                    <span>(233) - 545061734</span>
+                    <span>(233) - 545061734/542877882 </span>
                   </p>
                   <p className="flex items-center space-x-2 mt-2">
                     <FaMapMarkerAlt />
@@ -261,19 +258,6 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer Section */}
-      {/* <footer className="bg-gray-900 text-white py-6">
-        <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-sm">
-            &copy; {new Date().getFullYear()} Vincecole Ventures. All rights reserved.
-          </div>
-          <div className="flex space-x-4">
-            <a href="#" className="text-white hover:text-yellow-600">Privacy Policy</a>
-            <a href="#" className="text-white hover:text-yellow-600">Terms of Service</a>
-          </div>
-        </div>
-      </footer> */}
     </>
   );
 };
