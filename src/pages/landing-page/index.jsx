@@ -22,29 +22,6 @@ const LandingPage = () => {
   return (
     <>
       <header>
-        {/* Top bar */}
-        <div className="bg-gray-900 text-white flex justify-between items-center py-2 px-4">
-          <div className="flex items-center space-x-4 ml-9">
-            <div className="flex items-center space-x-1">
-              <FaPhoneAlt />
-              <span>(233) - 545061734</span>
-            </div>
-            <div className="flex items-center space-x-1">
-              <FaMapMarkerAlt />
-              <span>1234 Ghana, West Africa</span>
-            </div>
-            <div className="flex items-center space-x-1">
-              <FaClock />
-              <span>Open 24/7</span>
-            </div>
-          </div>
-          <div className="flex space-x-4 mr-9">
-            <FaFacebookF />
-            <FaTwitter />
-            <FaGoogle />
-            <FaPinterestP />
-          </div>
-        </div>
 
         {/* Main navbar */}
         <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -142,46 +119,67 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Blog</h2>
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/3 px-4 mb-8">
+          <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage1} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 1</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 1.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 2</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 2.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 3</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 3.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage1} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 4</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 4.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 5</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 5.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 6</h3>
                 <p className="text-gray-700 mt-2">Excerpt of blog post 6.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 7</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 7.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 8</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 8.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 9</h3>
+                <p className="text-gray-700 mt-2">Excerpt of blog post 9.</p>
               </div>
             </div>
           </div>
