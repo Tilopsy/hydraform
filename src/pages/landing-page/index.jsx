@@ -3,6 +3,8 @@ import {
   FaPhoneAlt, FaMapMarkerAlt, FaClock, FaFacebookF,
   FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
 } from 'react-icons/fa';
+import { StarIcon, QuoteIcon } from 'lucide-react';
+import { motion } from 'framer-motion';
 import logo from '../../assets/images/hydraform.png';
 import backgroundImage from '../../assets/images/hero-bg.jpg';
 import videoFile from '../../assets/videos/video-process.mp4';
@@ -17,6 +19,7 @@ import blogImage4 from '../../assets/images/entrepreneur1.jpeg';
 import blogImage5 from '../../assets/images/brickhouse.jpeg';
 import blogImage6 from '../../assets/images/entrepreneurswithblocks.jpeg';
 import { FaWhatsapp } from 'react-icons/fa6';
+
 
 const LandingPage = () => {
   return (
@@ -201,9 +204,53 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      
+      {/* Testimonials Section */}
+      <section id="testimonials" className="py-10">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Testimonials</h2>
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <p className="text-gray-700 font-semibold">"This is an awesome product! I recommend it to anyone looking for durability."</p>
+                <div className="flex items-center mt-4">
+                  <img src={aboutUsImage} alt="Customer 1" className="w-10 h-10 rounded-full mr-3" />
+                  <div>
+                    <h4 className="text-red-700 font-semibold">Customer 1</h4>
+                    <p className="text-gray-700">Job Title</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <p className="text-gray-700 font-semibold">"Fantastic service and great product. I will definitely be a repeat customer."</p>
+                <div className="flex items-center mt-4">
+                  <img src={aboutUsImage} alt="Customer 2" className="w-10 h-10 rounded-full mr-3" />
+                  <div>
+                    <h4 className="text-red-700 font-semibold">Customer 2</h4>
+                    <p className="text-gray-700">Job Title</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <p className="text-gray-700 font-semibold">"Excellent quality and customer service. Highly recommend to everyone!"</p>
+                <div className="flex items-center mt-4">
+                  <img src={aboutUsImage} alt="Customer 3" className="w-10 h-10 rounded-full mr-3" />
+                  <div>
+                    <h4 className="text-red-700 font-semibold">Customer 3</h4>
+                    <p className="text-gray-700">Job Title</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-      {/* Contact Us Section */}
+  {/* Contact Us Section */}
       <section id="contact" className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
@@ -247,7 +294,7 @@ const LandingPage = () => {
                 </form>
               </div>
             </div>
-            <div className="w-full md:w-1/2 px-4">
+            <div className="w-full md:w-1/2 p-20">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <h3 className="text-xl font-semibold text-red-700 mb-4">Contact Information</h3>
                 <p className="text-gray-700">Feel free to get in touch with us through any of the methods below:</p>
