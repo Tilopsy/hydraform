@@ -28,7 +28,7 @@ const LandingPage = () => {
 
         {/* Main navbar */}
         <div className="relative bg-cover bg-center h-dvh" style={{ backgroundImage: `url(${backgroundImage})` }}>
-          <div className="bg-white w-full opacity-90">
+          <div className="bg-white w-full opacity-90 fixed left-0 top-0">
             <div className="container mx-auto flex justify-between items-center py-4 px-4">
               <div className="flex items-center space-x-2">
                 <img src={logo} alt="Logo" className="h-20" />
@@ -44,6 +44,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
+       
       </header>
 
       {/* Who We Are Section/Video */}
