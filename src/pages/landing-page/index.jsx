@@ -5,19 +5,27 @@ import {
 } from 'react-icons/fa';
 import { StarIcon, QuoteIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
-import logo from '../../assets/images/hydraform.png';
+import logo from '../../assets/images/vincecolelogo2.png';
 import backgroundImage from '../../assets/images/hero-bg.jpg';
 import videoFile from '../../assets/videos/video-process.mp4';
-import serviceImage1 from '../../assets/images/l-news-1.jpg';
+import recycleImage from '../../assets/images/recycleimage.webp';
 import serviceImage2 from '../../assets/images/l-news-2.jpg';
 import serviceImage3 from '../../assets/images/l-news-3.jpg';
 import aboutUsImage from '../../assets/images/construction1.webp';
-import blogImage1 from '../../assets/images/brickwall1.jpg';
-import blogImage2 from '../../assets/images/construction2.jpg';
-import blogImage3 from '../../assets/images/brickwall2.jpg';
-import blogImage4 from '../../assets/images/entrepreneur1.jpeg';
+import blogImage1 from '../../assets/images/entrepreneur1.jpeg';
+import blogImage2 from '../../assets/images/brickspic4.jpeg';
+import blogImage3 from '../../assets/images/brickspic6.jpeg';
+import blogImage4 from '../../assets/images/brickspic2.jpeg';
 import blogImage5 from '../../assets/images/brickhouse.jpeg';
-import blogImage6 from '../../assets/images/entrepreneurswithblocks.jpeg';
+import blogImage6 from '../../assets/images/brickspic3.jpeg';
+import blogImage7 from '../../assets/images/brickwall2.jpg';
+import blogImage8 from '../../assets/images/brickspic5.jpeg';
+import blogImage9 from '../../assets/images/background3.jpg';
+import testimonialImage1 from '../../assets/images/reggiereynolds.jpg';
+import testimonialImage2 from '../../assets/images/dianehampton.jpg';
+import testimonialImage3 from '../../assets/images/henryakwaboah.jpg';
+
+
 import { FaWhatsapp } from 'react-icons/fa6';
 
 
@@ -53,38 +61,24 @@ const LandingPage = () => {
     <div className="w-full md:w-1/2 mb-8 md:mb-0">
       <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
       <p className="text-gray-700 font-semibold">
-        We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
-        Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
-        Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
-        Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
+
+We are Vincecole Ventures, and we specialize in Hydraform Seaweed Interlock Brick Technology, which involves incorporating seaweed ashes, cement and clay to manufacture bricks for construction.
+<br />
+<p className='font-bold text-red-700'>Motto</p>
+<h1>Seaweed Interlocking Bricks: Environmentally-Friendly Building Materials, Our Priority!</h1>
+<p className='font-bold text-red-700'>Mission</p>
+<h1>Our mission is to produce durable, affordable, and environmentally-friendly building materials for construction.</h1> 
+<p className='font-bold text-red-700'>Vision</p>
+<h1>Our vision is to provide affordable and durable real estate housing for individuals and retirees.</h1>
       </p>
     </div>
-    <div className="w-full md:w-1/2 flex justify-center md:pl-36">
-      <video controls className="w-full h-auto max-w-full">
+    <div className="md:w-1/2 flex justify-center md:pl-32">
+      <video controls className="w-full h-auto max-w-full rounded-lg">
         <source src={videoFile} type="video/mp4" />
       </video>
     </div>
   </div>
 </section>
-
-      {/* <section id="home" className="py-20">
-    <div className="container mx-auto px-4 flex flex-wrap items-center">
-      <div className="w-full md:w-1/2 mb-8 md:mb-0">
-        <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
-        <p className="text-gray-700 font-semibold">
-          We are Vincecole Ventures, specialized in Hydraform Seaweed Interlock Brick Technology; a kind of technology that involves the inoculation of seaweed ashes, cement and clay to form bricks for building. <br />
-          Motto: <br /> Seaweed Interlocking Bricks, Environmentally-Friendly Building Material Our Concern!!! <br />
-          Mission: <br /> To produce durable, affordable and environmentally-friendly building material for construction. <br />
-          Vision: <br /> To produce affordable and durable real estate Houses for individuals and retired workers.
-        </p>
-      </div>
-      <div className=" md:w-1/2 flex justify-center pl-36">
-        <video controls className="h-auto">
-          <source src={videoFile} type="video/mp4" />
-        </video>
-      </div>
-    </div>
-  </section> */}
 
       {/* Services Section */}
       <section id="services" className="py-10 bg-gray-100">
@@ -93,23 +87,23 @@ const LandingPage = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={serviceImage1} alt="Service 1" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 1</h3>
-                <p className="text-gray-700 mt-2">Description of service 1.</p>
+                <img src={recycleImage} alt="Service 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Hydraform Seaweed-Interlock Bricks</h3>
+                <p className="text-gray-700 mt-2">This involves a rigorous combination of seaweed ashes, cement and clay to manufacture bricks for building construction.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={serviceImage2} alt="Service 2" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 2</h3>
-                <p className="text-gray-700 mt-2">Description of service 2.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Consultation Services</h3>
+                <p className="text-gray-700 mt-2">We believe strongly in sharing our expertise on how to manufacture your own bricks and are bent on giving expert advice accordingly.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={serviceImage3} alt="Service 3" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Service 3</h3>
-                <p className="text-gray-700 mt-2">Description of service 3.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Free Strategic Management Sessions</h3>
+                <p className="text-gray-700 mt-2">The perfect outcome of your building project is our concern, and so we carefully strategize before commencing any given project.</p>
               </div>
             </div>
           </div>
@@ -127,7 +121,7 @@ const LandingPage = () => {
             <div className="w-full md:w-1/2">
               <p className="text-gray-700 font-semibold ml-4">
                 We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have. We believe in building strong relationships with our clients and providing top-notch customer service. <br />
-                We are dedicated to providing the best service in the industry. Our team of experts is here to help you with any questions or concerns you may have. We believe in building strong relationships with our clients and providing top-notch customer service.
+                Our wide range of products and services are delivered with a touch of professionalism and to your satisfaction; and our extraordinary team, always on standby, eager to deliver nothing short of the best to our valuable clientele.
               </p>
             </div>
           </div>
@@ -141,65 +135,65 @@ const LandingPage = () => {
           <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 1</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 1.</p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 2</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 2.</p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 3</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 3.</p>
-              </div>
-            </div>
-            <div className="w-full md:w-1/3 px-4 mb-8">
-              <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage1} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 4</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 4.</p>
+                <img src={blogImage1} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Brick Production </h3>
+                <p className="text-gray-700 mt-2">Getting the bricks ready for construction</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 5</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 5.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Finished Product</h3>
+                <p className="text-gray-700 mt-2">Construction Site.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 6</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 6.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Construction Site</h3>
+                <p className="text-gray-700 mt-2">Completed Project.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage4} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 7</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 7.</p>
+                <img src={blogImage4} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Brick manufacturer at work</h3>
+                <p className="text-gray-700 mt-2">Building project prelims.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 8</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 8.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Completed Project</h3>
+                <p className="text-gray-700 mt-2">Construction Site.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
                 <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
-                <h3 className="text-xl font-semibold text-red-700 mt-4">Blog Post 9</h3>
-                <p className="text-gray-700 mt-2">Excerpt of blog post 9.</p>
+                <h3 className="text-xl font-semibold text-red-700 mt-4">The Team</h3>
+                <p className="text-gray-700 mt-2">Meet the exceptional Project Management team.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage7} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Design Model Template 1</h3>
+                <p className="text-gray-700 mt-2">Client's structural prototype.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage8} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Construction in Progress</h3>
+                <p className="text-gray-700 mt-2">Framework and more.</p>
+              </div>
+            </div>
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white shadow-lg rounded-lg p-6">
+                <img src={blogImage9} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <h3 className="text-xl font-semibold text-red-700 mt-4">Design Model Template 2</h3>
+                <p className="text-gray-700 mt-2">Client's construction blueprint.</p>
               </div>
             </div>
           </div>
@@ -213,36 +207,36 @@ const LandingPage = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <p className="text-gray-700 font-semibold">"This is an awesome product! I recommend it to anyone looking for durability."</p>
+                <p className="text-gray-700 font-semibold">This is an awesome product! I recommend it to anyone looking for durability.</p>
                 <div className="flex items-center mt-4">
-                  <img src={aboutUsImage} alt="Customer 1" className="w-10 h-10 rounded-full mr-3" />
+                  <img src={testimonialImage1} alt="Customer 1" className="w-10 h-10 rounded-full mr-3" />
                   <div>
-                    <h4 className="text-red-700 font-semibold">Customer 1</h4>
-                    <p className="text-gray-700">Job Title</p>
+                    <h4 className="text-red-700 font-semibold">Reggie Reynolds</h4>
+                    <p className="text-gray-700">CEO, Reggie Homes, Obuasi</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <p className="text-gray-700 font-semibold">"Fantastic service and great product. I will definitely be a repeat customer."</p>
+                <p className="text-gray-700 font-semibold">Fantastic service and great product. I will definitely be a repeat customer.</p>
                 <div className="flex items-center mt-4">
-                  <img src={aboutUsImage} alt="Customer 2" className="w-10 h-10 rounded-full mr-3" />
+                  <img src={testimonialImage2} alt="Customer 2" className="w-10 h-10 rounded-full mr-3" />
                   <div>
-                    <h4 className="text-red-700 font-semibold">Customer 2</h4>
-                    <p className="text-gray-700">Job Title</p>
+                    <h4 className="text-red-700 font-semibold">Diane Hampton</h4>
+                    <p className="text-gray-700">Facilities Manager, Takoradi</p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <p className="text-gray-700 font-semibold">"Excellent quality and customer service. Highly recommend to everyone!"</p>
+                <p className="text-gray-700 font-semibold">Excellent quality and customer service. Highly recommend to everyone!</p>
                 <div className="flex items-center mt-4">
-                  <img src={aboutUsImage} alt="Customer 3" className="w-10 h-10 rounded-full mr-3" />
+                  <img src={testimonialImage3} alt="Customer 3" className="w-10 h-10 rounded-full mr-3" />
                   <div>
-                    <h4 className="text-red-700 font-semibold">Customer 3</h4>
-                    <p className="text-gray-700">Job Title</p>
+                    <h4 className="text-red-700 font-semibold">Henry Akwaboah</h4>
+                    <p className="text-gray-700">Founder, Polaris Estates, Accra</p>
                   </div>
                 </div>
               </div>
