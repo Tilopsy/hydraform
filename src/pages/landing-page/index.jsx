@@ -62,7 +62,7 @@ const LandingPage = () => {
       <h2 className="text-3xl font-bold text-red-700 mb-4">WHO WE ARE?</h2>
       <p className="text-gray-700 font-semibold">
 
-We are Vincecole Ventures, and we specialize in Hydraform Seaweed Interlock Brick Technology, which involves incorporating seaweed ashes, cement and clay to manufacture bricks for construction.
+We are Vincecole Ventures. We specialize in Hydraform Seaweed-Interlock Brick Technology, which involves incorporating seaweed ashes, cement and clay to manufacture bricks for construction.
 <br />
 <p className='font-bold text-red-700'>Motto</p>
 <h1>Seaweed Interlocking Bricks: Environmentally-Friendly Building Materials, Our Priority!</h1>
