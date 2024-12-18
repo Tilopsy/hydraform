@@ -248,7 +248,7 @@ We are Vincecole Ventures. We specialize in Hydraform Seaweed-Interlock Brick Te
   {/* Contact Us Section */}
       <section id="contact" className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Contact Us</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Find Us</h2>
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
