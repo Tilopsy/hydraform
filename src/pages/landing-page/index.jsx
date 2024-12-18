@@ -21,9 +21,9 @@ import blogImage6 from '../../assets/images/brickspic3.jpeg';
 import blogImage7 from '../../assets/images/brickwall2.jpg';
 import blogImage8 from '../../assets/images/brickspic5.jpeg';
 import blogImage9 from '../../assets/images/background3.jpg';
-import testimonialImage1 from '../../assets/images/reggiereynolds.jpg';
-import testimonialImage2 from '../../assets/images/dianehampton.jpg';
-import testimonialImage3 from '../../assets/images/henryakwaboah.jpg';
+import testimonialImage1 from '../../assets/images/reggieReynolds.jpg';
+import testimonialImage2 from '../../assets/images/dianeHampton.jpg';
+import testimonialImage3 from '../../assets/images/henryAkwaboah.jpg';
 
 
 import { FaWhatsapp } from 'react-icons/fa6';
