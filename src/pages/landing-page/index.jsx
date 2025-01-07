@@ -296,7 +296,7 @@ We are Vincecole Ventures. We specialize in Hydraform Seaweed-Interlock Brick Te
                 <div className="mt-4">
                   <p className="flex items-center space-x-2">
                     <FaPhoneAlt />
-                    <span>(233) - 545061734/542877882 </span>
+                    <span>(233) - 545061734 / 542877882 </span>
                   </p>
                   <p className="flex items-center space-x-2 mt-2">
                     <FaMapMarkerAlt />
