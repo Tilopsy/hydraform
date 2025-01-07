@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   FaPhoneAlt, FaMapMarkerAlt, FaClock, FaFacebookF,
-  FaTwitter, FaGoogle, FaPinterestP, FaShoppingCart
+  FaInstagram, FaTiktok, FaLinkedin,
 } from 'react-icons/fa';
 import { StarIcon, QuoteIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
@@ -306,13 +306,6 @@ We are Vincecole Ventures. We specialize in Hydraform Seaweed-Interlock Brick Te
                     <FaClock />
                     <span>Open 24/7</span>
                   </p>
-                </div>
-                <div className="mt-4 flex space-x-4">
-                  <FaFacebookF className="text-xl" />
-                  <FaTwitter className="text-xl" />
-                  <FaGoogle className="text-xl" />
-                  <FaPinterestP className="text-xl" />
-                  <FaWhatsapp className="text-xl" />
                 </div>
               </div>
             </div>

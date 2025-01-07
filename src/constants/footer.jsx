@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaTiktok, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa6';
 
 const Footer = () => {
@@ -9,22 +9,22 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex flex-col items-center md:items-start">
           <h2 className="text-2xl font-bold mb-4 text-red-700 md:pl-16">Follow Us</h2>
-          <div className="flex justify-center space-x-6">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
+          <div className="flex justify-center space-x-10">
+            <a href="https://web.facebook.com/people/Vincecole-Ventures/61570410250402/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
               <FaFacebook size={28} />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
-              <FaTwitter size={28} />
+            <a href="https://www.tiktok.com/@vincecole.ventures?lang=en" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
+              <FaTiktok size={28} />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
+            <a href="https://www.instagram.com/vincecoleventures1/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
               <FaInstagram size={28} />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
+            <a href="https://www.linkedin.com/in/vincecole-ventures-941456340/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
               <FaLinkedin size={28} />
             </a>
-            <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
+            {/* <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition duration-300">
               <FaWhatsapp size={28} />
-            </a>
+            </a> */}
           </div>
         </div>
 
