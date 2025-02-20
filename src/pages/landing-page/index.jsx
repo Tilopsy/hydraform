@@ -160,63 +160,63 @@ We are Vincecole Ventures. We specialize in Hydraform Seaweed-Interlock Brick Te
           <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage1} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage1} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Brick Production </h3>
                 <p className="text-gray-700 mt-2">Getting the bricks ready for construction</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage2} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Finished Product</h3>
                 <p className="text-gray-700 mt-2">Construction Site.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage3} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Construction Site</h3>
                 <p className="text-gray-700 mt-2">Completed Project.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage4} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage4} alt="Blog Post 1" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Brick manufacturer at work</h3>
                 <p className="text-gray-700 mt-2">Building project prelims.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage5} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Completed Project</h3>
                 <p className="text-gray-700 mt-2">Construction Site.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage6} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">The Team</h3>
                 <p className="text-gray-700 mt-2">Meet the exceptional Project Management team.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage7} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage7} alt="Blog Post 4" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Design Model Template 1</h3>
                 <p className="text-gray-700 mt-2">Client's structural prototype.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage8} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage8} alt="Blog Post 2" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Construction in Progress</h3>
                 <p className="text-gray-700 mt-2">Framework and more.</p>
               </div>
             </div>
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white shadow-lg rounded-lg p-6">
-                <img src={blogImage9} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg" />
+                <img src={blogImage9} alt="Blog Post 3" className="w-full h-40 object-cover rounded-t-lg transition-transform duration-300 hover:scale-105" />
                 <h3 className="text-xl font-semibold text-red-700 mt-4">Design Model Template 2</h3>
                 <p className="text-gray-700 mt-2">Client's construction blueprint.</p>
               </div>
